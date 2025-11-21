@@ -32,8 +32,8 @@ services:
          value: "true"
        - key: DATABASE_CONNECTION_URI
          value: "mongodb+srv://delvis4dev_db:Supplydepot25.@imperiouscluster.bji3j1f.mongodb.net/"
-      # - key: DATABASE_PROVIDER
-      #   value: "mongodb"
+       - key: DATABASE_PROVIDER
+         value: "mongodb"
       
       # Desactiva Redis para ahorrar memoria (usará memoria interna)
       - key: CACHE_REDIS_ENABLED
